@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   }
 
   s.author       = { "Kyle Donnelly" => "kydonnelly@gmail.com" }
-  s.source       = { :git => "https://github.com/kydonnelly/KTDTreeMap.git", :branch => "master", :tag => s.version }
+  s.source       = { :git => "https://github.com/kydonnelly/KTDIconFont.git", :branch => "master", :tag => s.version }
 
   s.platform     = :ios, '9.0'
   s.ios.deployment_target = '9.0'
