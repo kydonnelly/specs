@@ -4,6 +4,7 @@ TREE_MAP_XCCONFIG = {
 	'CLANG_CXX_LIBRARY' => 'compiler-default',
 
 	# Don't ignore compile warnings!
+	'GCC_WARN_UNUSED_PARAMETER' => 'NO',
 	'GCC_TREAT_WARNINGS_AS_ERRORS' => 'YES',
 	'SWIFT_TREAT_WARNINGS_AS_ERRORS' => 'YES',
 
@@ -24,7 +25,7 @@ Pod::Spec.new do |s|
   }
 
   s.author       = { "Kyle Donnelly" => "kydonnelly@gmail.com" }
-  s.source         = { :git => "https://github.com/kydonnelly/KTDTreeMap.git", :branch => "master", :tag => s.version }
+  s.source       = { :git => "https://github.com/kydonnelly/KTDTreeMap.git", :branch => "master", :tag => s.version }
 
   s.platform     = :ios, '9.0'
   s.ios.deployment_target = '9.0'
