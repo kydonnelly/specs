@@ -52,6 +52,7 @@ Pod::Spec.new do |s|
 
   s.test_spec 'Tests' do |test_spec|
     test_spec.source_files = 'App/KTDIconFontTests/*.{swift}'
+    test_spec.resources = 'App/KTDIconFontTests/*.{ttf}'
   end
 
 end
